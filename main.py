@@ -1,3 +1,5 @@
+import os
+import enum
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -6,6 +8,10 @@ from duckduckgo_search import DDGS
 from duckduckgo_search.exceptions import DuckDuckGoSearchException
 
 # TODO Add comments
+
+class Mode(enum.Enum):
+    GENTLE = 1 # Create markdown files only if they don't exist
+    BRUTAL = 2 # Create markdown files regardless of their existence
 
 # Global variables
 DUCK = DDGS() # Global DuckDuckGo search object
@@ -139,13 +145,6 @@ def assemble_enhanced_markdown(desc, info):
         s += f"{opening.desc}\n\n"
 
         # Search for information with DuckDuckGo
-        # ddg_text = DUCK.text(opening.name, backend='html')[0]['body']
-        # if ddg_text.endswith('...'): # Handle weird search results
-        #     sentences = ddg_text.split('.')
-        #     if len(sentences) > 2:
-        #         ddg_text = '.'.join(sentences[:-3]) + '.'
-
-        # Search for information with DuckDuckGo
         while True:
             try:
                 ddg_text = DUCK.text(opening.name, backend='html')[0]['body']
@@ -177,12 +176,6 @@ def assemble_enhanced_markdown(desc, info):
                     exit(1)
                 print(f"Error: {e}. Retrying in 10 seconds...")
                 time.sleep(10)
-
-        # Search for video with DuckDuckGo
-        # ddg_video = DUCK.videos(opening.name)[0]
-        # ddg_video_views = ddg_video['statistics']['viewCount']
-        # ddg_video_link = ddg_video['content']
-        # ddg_video_image = ddg_video['images']['medium']
 
         # Add DuckDuckGo information
         s += f"### Duckduckgo results about {opening.name}\n\n"
@@ -219,12 +212,43 @@ def mdsave(md_text: str, name: str):
     with open(f"{name}.md", "w", encoding="utf-8") as file:
         file.write(md_text)
 
+def ask_for_mode():
+    mode = input("""Please choose the mode:
+        1. Create markdown files only if they don't exist.
+        2. Create markdown files regardless of their existence.
+        Type "1" or "2" (skip for default - 1): """)
+
+    if mode is not None and mode not in ['1', '2']:
+        print("Invalid mode. Exiting...")
+        exit(1)
+
+    return Mode.GENTLE if mode is None or mode == '1' else Mode.BRUTAL
+
 def main():
-    chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
-    basic_markdown = create_basic_markdown(chess_website_information)
-    enhanced_markdown = create_enhanced_markdown(chess_website_information)
-    mdsave(basic_markdown, 'basic_markdown')
-    mdsave(enhanced_markdown, 'enhanced_markdown')
+    mode = ask_for_mode()
+
+    if mode == Mode.BRUTAL:
+        chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
+        basic_markdown = create_basic_markdown(chess_website_information)
+        mdsave(basic_markdown, 'basic_markdown')
+        enhanced_markdown = create_enhanced_markdown(chess_website_information)
+        mdsave(enhanced_markdown, 'enhanced_markdown')
+
+        # for file in os.listdir('jk-chess/_posts'):
+        #     os.remove(os.path.join('jk-chess', file))
+
+    else:
+        if not os.path.isfile('basic_markdown.md') or not os.path.isfile('enhanced_markdown.md'):
+            chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
+
+            if not os.path.isfile('basic_markdown.md'):
+                basic_markdown = create_basic_markdown(chess_website_information)
+                mdsave(basic_markdown, 'basic_markdown')
+
+            if not os.path.isfile('enhanced_markdown.md'):
+                enhanced_markdown = create_enhanced_markdown(chess_website_information)
+                mdsave(enhanced_markdown, 'enhanced_markdown')
+
 
 def _check_ddg_text(query):
     """
