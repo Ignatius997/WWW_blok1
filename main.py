@@ -101,7 +101,7 @@ def gather_website_information(src):
 def assemble_basic_markdown(desc, info):
     basic_md = f"# {info.title}\n\n{desc}\n\n"
 
-    for opening in info.openings:
+    for opening in info.openings[:5]: # FIXME zmienić na całość po testach
         basic_md += f"## {opening.name}\n\n"
         basic_md += f"![{opening.name}]({opening.picture})\n\n"
         basic_md += f"{opening.desc}\n\n"
@@ -111,17 +111,22 @@ def assemble_basic_markdown(desc, info):
 def assemble_enhanced_markdown(desc, info):
     enhanced_md = f"# {info.title}\n\n{desc}\n\n"
 
-    for opening in info.openings:
+    for opening in info.openings[:5]: # FIXME zmienić na całość po testach
         enhanced_md += f"## {opening.name}\n\n"
         enhanced_md += f"![{opening.name}]({opening.picture})\n\n"
         enhanced_md += f"{opening.desc}\n\n"
-        # TODO uncomment this when the search function is working
-        # search_results = search(opening.name, num_results=3)
-        # enhanced_md += f'#### Additional Information for {opening.name}\n'
-        #
-        # for result in search_results:
-        #     enhanced_md += f"\n- {result}"
-        # enhanced_md += '\n\n'
+
+        ddg_text = DUCK.text(opening.name, max_results=1)[0]
+        if (opening.name == "Belgrade Gambit"):
+            ddg_text_link = ddg_text['href']
+        ddg_text = ddg_text['body']
+        ddg_video = DUCK.videos(opening.name, max_results=1)[0]
+        ddg_video_link = ddg_video['content']
+        ddg_video_image = ddg_video['images']['medium']
+
+        enhanced_md += f"### Duckduckgo results about {opening.name}\n\n"
+        enhanced_md += f"{ddg_text}\n\n"
+        enhanced_md += f"Video:\n[![]({ddg_video_image})]({ddg_video_link})\n\n"
 
     return enhanced_md
 
@@ -132,17 +137,6 @@ def create_basic_markdown(chess_website_information):
 def create_enhanced_markdown(chess_website_information):
     desc = f'#### {chess_website_information.desc}\n\n'
     return assemble_enhanced_markdown(desc, chess_website_information)
-
-    # enhanced_md = create_basic_markdown(chess_website_information)
-    #
-    # for opening in chess_website_information.openings:
-    #     search_results = search(opening.name, num_results=3)
-    #     enhanced_md += f"### Additional Information for {opening.name}\n\n"
-    #
-    #     for result in search_results:
-    #         enhanced_md += f"- {result}\n"
-    #     enhanced_md += '\n'
-    # return enhanced_md
 
 def mdsave(mdfile, name):
     with open(f"{name}.md", "w", encoding="utf-8") as file:
@@ -155,13 +149,13 @@ def main():
     mdsave(basic_markdown, 'basic_markdown')
     mdsave(enhanced_markdown, 'enhanced_markdown')
 
-def check_ddg():
+def _check_ddg_text(query):
     """
-    Przeprowadź ddg na kilku przykładach: polska, niemcy, francja.
     APPROVED 20:09.
     """
-    print('Query: "polska niemcy francja"\n')
-    results = DUCK.text('polska niemcy francja', max_results=3)
+    print(f'DDGS().text("{query}", max_results=3)\n')
+    results = DUCK.text(query, max_results=3)
+
     for result in results:
         print('Type:',  type(result))
         print('Keys:',  result.keys())
@@ -169,8 +163,35 @@ def check_ddg():
         print('Body:',  result['body'])
         print(_SEPARATOR)
 
+
+def _check_ddq_video(query):
+    """
+    APPROVED 20:33
+    """
+    print(f'DDGS().videos("{query}", max_results=3)\n')
+    results = DUCK.videos(query, max_results=3)
+
+    for result in results:
+        print('Type:',  type(result))
+        print('Keys:',  result.keys())
+        print('Title:', result['title'])
+        print('content:', result['content'])
+        print('image_token:', result['image_token'])
+        print('medium image:', result['images']['medium'])
+        print('description:', result['description'])
+        print(_SEPARATOR)
+
+
+def check_ddg():
+    """
+    APPROVED 20:33
+    """
+    query = "polska niemcy francja"
+    _check_ddg_text(query)
+    # _check_ddq_video(query)
+
 if __name__ == '__main__':
     start_time = time.time()
-    # main()
-    check_ddg()
+    main()
+    # check_ddg()
     print(f'Execution time: {time.time() - start_time} seconds.')
