@@ -107,7 +107,6 @@ def assemble_enhanced_markdown(desc, info):
     enhanced_md = f"# {info.title}\n\n{desc}\n\n"
     openings_sorted = []
 
-
     for opening in info.openings: # FIXME zmienić na całość po testach
         global ERROR_COUNT
 
@@ -170,9 +169,13 @@ def assemble_enhanced_markdown(desc, info):
         t = (s, ddg_video_views)
         openings_sorted.append(t)
 
-    openings_sorted = sorted(openings_sorted, key=lambda t: t[0])
+    def sort_key(t): # Sort by views with None values equal to -inf
+        return t[1] if t[1] is not None else float('-inf')
+    openings_sorted = sorted(openings_sorted, key=sort_key, reverse=True)
+
     for opening in openings_sorted:
         enhanced_md += opening[0]
+
     return enhanced_md
 
 def create_basic_markdown(chess_website_information):
@@ -183,9 +186,15 @@ def create_enhanced_markdown(chess_website_information):
     desc = f'#### {chess_website_information.desc}\n\n'
     return assemble_enhanced_markdown(desc, chess_website_information)
 
-def mdsave(mdfile, name):
+def mdsave(md_text: str, name: str):
+    """
+
+    :param md_text:
+    :param name:
+    :return:
+    """
     with open(f"{name}.md", "w", encoding="utf-8") as file:
-        file.write(mdfile)
+        file.write(md_text)
 
 def main():
     chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
