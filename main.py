@@ -4,7 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
-from googlesearch import search
+# from googlesearch import search
+from duckduckgo_search import ddg
 
 # FIXME jakiś błąd z rozwiązaniem tego `from googlesearch import search`
 #   Rozwiązania:
