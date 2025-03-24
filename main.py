@@ -5,7 +5,9 @@ from bs4 import BeautifulSoup
 import re
 import time
 # from googlesearch import search
-from duckduckgo_search import ddg
+from duckduckgo_search import DDGS
+
+DUCK = DDGS()
 
 # FIXME jakiś błąd z rozwiązaniem tego `from googlesearch import search`
 #   Rozwiązania:
@@ -113,12 +115,13 @@ def assemble_enhanced_markdown(desc, info):
         enhanced_md += f"## {opening.name}\n\n"
         enhanced_md += f"![{opening.name}]({opening.picture})\n\n"
         enhanced_md += f"{opening.desc}\n\n"
-        search_results = search(opening.name, num_results=3)
-        enhanced_md += f'#### Additional Information for {opening.name}\n'
-
-        for result in search_results:
-            enhanced_md += f"\n- {result}"
-        enhanced_md += '\n\n'
+        # TODO uncomment this when the search function is working
+        # search_results = search(opening.name, num_results=3)
+        # enhanced_md += f'#### Additional Information for {opening.name}\n'
+        #
+        # for result in search_results:
+        #     enhanced_md += f"\n- {result}"
+        # enhanced_md += '\n\n'
 
     return enhanced_md
 
@@ -152,7 +155,22 @@ def main():
     mdsave(basic_markdown, 'basic_markdown')
     mdsave(enhanced_markdown, 'enhanced_markdown')
 
+def check_ddg():
+    """
+    Przeprowadź ddg na kilku przykładach: polska, niemcy, francja.
+    APPROVED 20:09.
+    """
+    print('Query: "polska niemcy francja"\n')
+    results = DUCK.text('polska niemcy francja', max_results=3)
+    for result in results:
+        print('Type:',  type(result))
+        print('Keys:',  result.keys())
+        print('Title:', result['title'])
+        print('Body:',  result['body'])
+        print(_SEPARATOR)
+
 if __name__ == '__main__':
     start_time = time.time()
-    main()
+    # main()
+    check_ddg()
     print(f'Execution time: {time.time() - start_time} seconds.')
