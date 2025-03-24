@@ -53,7 +53,7 @@ After white moves his knight to g5, attacking the weakened f7 square, black coun
 
 ### Duckduckgo results about Traxler Counter Attack
 
-The Traxler Counterattack, also known as the Wilkes-Barre Variation, is a chess opening that begins with the moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Bc5!? The opening is a variation of the Two Knights Defense [1][2] where White has chosen the offensive line 4.Ng5, immediately attacking the f7-square with the knight and bishop, and Black has replied 4...Bc5, counterattacking the f2-square .
+Learn how to play the Traxler Counterattack, a sharp and aggressive variation of the Italian Game. See the moves, analysis, and top players of this opening on Chess.com.
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVP.51EU60VFTqiN5qNSqda8aAHgFo&pid=Api)](https://www.youtube.com/watch?v=v1jkj-HPLdw)
@@ -70,7 +70,7 @@ White decides to develop the light square bishop before bringing the knight to f
 
 ### Duckduckgo results about Bishop’s Opening
 
-Learn about the chess opening that begins with 1.e4 e5 2.Bc4, and its variations and history. Find out how White attacks Black's f7-square and prevents d5, and how Black can respond with different moves.
+The Bishop's Opening is a chess opening that begins with the moves: 1. e4 e5 2. Bc4 White attacks Black's f7-square and prevents Black from advancing the d-pawn to d5. By ignoring the beginner's maxim "develop knights before bishops ", White leaves their f-pawn unblocked, preserving the possibility of f2-f4.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.wwloTtBU9ilMVY1UU7fvFgHgFo&pid=Api)](https://www.youtube.com/watch?v=Qb3PWiIbIJs)
@@ -107,7 +107,7 @@ Much like other gambits, the Evan’s Gambit gives up an early pawn in exchange 
 
 ### Duckduckgo results about Evans Gambit
 
-Learn about the Evans Gambit, a chess opening that offers a pawn to divert the black bishop on c5. Find out its history, variations, analysis and famous games.
+The Evans Gambit is a chess opening characterised by the moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 The Evans Gambit is an attacking line of the Giuoco Piano. White offers a pawn to divert the black bishop on c5. If Black accepts, White can follow up with c3 and d4, ripping open the centre, while also opening diagonals to play Ba3 or Qb3 at some point, preventing Black from castling kingside .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.t2eET7LXNmtf26EHoR30eAHgFo&pid=Api)](https://www.youtube.com/watch?v=CUQQ4dym5ZU)
@@ -125,7 +125,7 @@ There are two main attacks that white has to play against the Pirc Defense. The 
 
 ### Duckduckgo results about Pirc Defense
 
-Learn how to play, attack and counter the Pirc Defense, a chess opening that starts with 1.e4 and 1...d6. Explore the four major variations: Austrian Attack, Two Knights System, 150 Attack and Byrne Variation.
+The Pirc Defence, named after Slovenian grandmaster Vasja Pirc, is a relatively new opening; while it was seen on occasion in the late nineteenth century, it was considered irregular, thus remaining a sideline.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.fn_9-Z6kPF3d_G4nSlrb9wHgFo&pid=Api)](https://www.youtube.com/watch?v=pEQdCWwH-YU)
@@ -138,7 +138,7 @@ Video:
 
 ### Duckduckgo results about Fajarowicz Gambit
 
-Fajarowicz Gambit Fajarowicz Gambit - Chess Opening Tricks and Strategy Welcome chess enthusiasts! excited to bring you insights into a particularly sneaky line in chess openings - the Fajarowicz variation. This cunning tactic diverges from the conventional paths of the Budapest defense, and today we'll unravel its mysteries.
+Fajarowicz Gambit - Chess Opening Tricks and Strategy. Welcome chess enthusiasts! excited to bring you insights into a particularly sneaky line in chess openings - the Fajarowicz variation. This cunning tactic diverges from the conventional paths of the Budapest defense, and today we'll unravel its mysteries. .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.j9UoDMcW0ilUi21hI0fEpgHgFo&pid=Api)](https://www.youtube.com/watch?v=LdfJ2dylQx8)
@@ -252,7 +252,7 @@ White looks to build up a support for a later push of d4, controlling the dark s
 
 ### Duckduckgo results about Ponziani Opening
 
-Learn about the Ponziani Opening, one of the oldest chess openings that begins with 1.e4 e5 2.Nf3 Nc6 3.c3. Find out its history, variations, and examples of play.
+The Ponziani Opening is a chess opening that begins with the moves: . 1. e4 e5 2. Nf3 Nc6 3. c3. It is one of the oldest chess openings, having been discussed in literature by 1497. It was advocated by Howard Staunton, generally considered the world's strongest player from 1843 to 1851, in his 1847 book The Chess-Player's Handbook.For some decades, it was often called "Staunton's Opening" or .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.h0XC5h7tY9bNT3hLi-mzQQHgFo&pid=Api)](https://www.youtube.com/watch?v=tqZLFyZbfDk)
@@ -269,7 +269,7 @@ Black has three main options to respond to the Vienna Game. They are 2….Nf6, 2
 
 ### Duckduckgo results about Vienna Game
 
-The Vienna Game is a 1.e4 opening for White. Compared to other 1.e4 openings, the Vienna is much less common but theoretically sound. Because of this, it can be an excellent weapon for beginners to catch their opponents by surprise. The Vienna is also suitable for more experienced players, with GMs like Viswanathan Anand and Alexander Shabalov among the players who have played it.
+The Vienna Game starts after the moves 1.e4 e5 2.Nc3. Instead of the more common 2.Nf3, White chooses to develop the queenside knight. White's second move allows for a quick f2-f4 pawn-push. It also keeps the d1-h5 diagonal open for the queen, which can go to f3 or h5.
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVP.I3PTJtjdE8NWPj_-pyC5fgHgFo&pid=Api)](https://www.youtube.com/watch?v=6QQ5sw-SgNw)
@@ -286,7 +286,7 @@ White looks to give up the b pawn in exchange for the removal of black’s dange
 
 ### Duckduckgo results about Wing Gambit
 
-The Wing Gambit can also be played against the French Defence, although this is largely refuted at the grandmaster level.One line, as popularised by Gotham Chess, [2] goes 1.e4 e6 2.Nf3 d5 3.e5 c5 4.b4, and Black often takes cxb4, followed by White's a3 with a further gambit of a pawn in exchange for quick development of the minor pieces, and/or d4 and c3 to solidify the centre.
+In chess, the Wing Gambit is an opening in which White plays an early b4, deflecting an enemy pawn or bishop from c5 so as to regain control of d4, an important central square.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.XSEIEaofOexY7AR3-CXQwAHgFo&pid=Api)](https://www.youtube.com/watch?v=LMBF4FGzDD4)
@@ -321,7 +321,7 @@ From the beginning, white looks to develop his bishop while pinning down black�
 
 ### Duckduckgo results about Ruy Lopez
 
-The Ruy Lopez (/ rɔɪ, ˈruːi /; Spanish: [ˈruj ˈlopeθ]), [1] also called the Spanish Opening or Spanish Game, is a chess opening characterised by the moves: 1. e4 e5 2. Nf3 Nc6 3. Bb5 The Ruy Lopez is named after 16th-century Spanish priest Ruy López de Segura who recommended it for White in his book on chess. It is one of the most popular openings, with many variations. In the .
+The Ruy Lopez (/ r ɔɪ, ˈ r uː i /; Spanish: [ˈruj ˈlopeθ]), [1] also called the Spanish Opening or Spanish Game, is a chess opening characterised by the moves: . 1. e4 e5 2. Nf3 Nc6 3. Bb5. The Ruy Lopez is named after 16th-century Spanish priest Ruy López de Segura who recommended it for White in his book on chess. It is one of the most popular openings, with many variations.
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVP.QHTjQX9fUfAYuLf5BV0cRwHgFo&pid=Api)](https://www.youtube.com/watch?v=xD0iTgHMQVQ)
@@ -373,7 +373,7 @@ In the Modern Benoni Defense, the main focus of the game is white’s center con
 
 ### Duckduckgo results about Benoni Defense
 
-Benoni Defense is a chess opening characterized by an early reply of ...c5 against White's 1.d4. Learn about its history, variations, and examples from this comprehensive article.
+The Benoni Defense, or simply the Benoni, is a chess opening characterized by an early reply of ...c5 against White's opening move 1.d4.. The original form of the Benoni, now known as the Old Benoni, is characterized by . 1. d4 c5. This leaves Black a few options such as an early ...f5 and an early dark-squared bishop trade by ...Be7-g5, but has the drawback that White is no longer committed .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.dKKb0nSi-dUxv4MS0q6D3wHgFo&pid=Api)](https://www.youtube.com/watch?v=N8mNUgzFD0s)
@@ -460,7 +460,7 @@ Black spends most of the time in the Semi-Slav developing pawns and pieces to co
 
 ### Duckduckgo results about Semi-Slav
 
-The Semi-Slav Defense is a variation of the Queen's Gambit Declined chess opening defined by the position reached after the moves: . 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6. The position may readily be reached by a number of different move orders.Black's supporting pawns resemble a mixture of the Orthodox Queen's Gambit Declined, e6, and the Slav Defense, c6. .
+The Semi-Slav Defense is a variation of the Queen's Gambit Declined chess opening defined by the position reached after the moves: 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 The position may readily be reached by a number of different move orders. Black's supporting pawns resemble a mixture of the Orthodox Queen's Gambit Declined, e6, and the Slav .
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.zSl6bdFG9I4zNe3LnarT2gHgFo&pid=Api)](https://www.youtube.com/watch?v=g1Uh3S-pPaA)
@@ -479,7 +479,7 @@ This gambit is only for very aggressive players as are most gambits. White looks
 
 ### Duckduckgo results about Smith Morra Gambit
 
-The Smith-Morra Gambit is named after Pierre Morra and Ken Smith, who helped popularize the opening. Morra was the first to publish a booklet and a few articles analyzing the opening around 1950. Smith later published, over 30 years, nine books and 49 articles on the gambit.
+In chess, the Smith-Morra Gambit (or simply Morra Gambit) is an opening gambit against the Sicilian Defence distinguished by the moves: . 1. e4 c5 2. d4 cxd4 3. c3. White sacrifices a pawn to develop quickly and create attacking chances. In exchange for the gambit pawn, White has a piece developed after 4.Nxc3 and a pawn in the center, while Black has an extra pawn and a central pawn majority.
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVP.9pS7NmmC3r20Y7ruUkqpywHgFo&pid=Api)](https://www.youtube.com/watch?v=3zRrvOzcx10)
@@ -545,7 +545,7 @@ Black looks to control the e4-square while completely unbalancing the position. 
 
 ### Duckduckgo results about Dutch Defense
 
-Learn how to play the Dutch Defense, a chess opening that starts with 1.d4 f5 to prevent White from creating a perfect pawn center. Explore the main variations, key positions, traps and examples from chess history.
+The Dutch Defence is a chess opening characterised by the moves: 1. d4 f5 Black's 1...f5 stakes a claim to the e4-square and envisions an attack in the middlegame on White's kingside; however, it also weakens Black's kingside to some extent, especially on the e8-h5 diagonal. [1] Like its 1.e4 counterpart, the Sicilian Defence, the Dutch is an aggressive and unbalancing opening, resulting in .
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVF.B%2bmwUX1LuTn1SEaF6XrDcA&pid=Api)](https://www.youtube.com/watch?v=-ykLK712xRM)
@@ -561,7 +561,7 @@ If white wants to play more aggressive he can always play e3 followed by f4 and 
 
 ### Duckduckgo results about Larsens Opening
 
-The Nimzowitsch-Larsen Attack (also known as the Nimzo-Larsen Attack, Larsen's Opening and Queen's Fianchetto Opening) is a chess opening typically starting with the move: 1.b3 but sometimes introduced by the move order 1.Nf3 and then 2.b3. The flank opening move 1.b3 prepares to fianchetto the queen's bishop where it will help control the central squares in hypermodern fashion and put .
+Like most openings that do not begin with 1.e4 or 1.d4, Larsen's Opening is immediately identifiable from White's first move. It is the sixth-most popular opening move for White in the Chess.com Masters database after 1.e4, 1.d4, 1.c4, 1.Nf3, and 1.g3. Pros. May lead to strong pressure down the long diagonal;
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVP.Kecs4eloCnipB52a-wTDgAHgFo&pid=Api)](https://www.youtube.com/watch?v=tqUOuk7Cirs)
@@ -685,7 +685,7 @@ Many times you will see games with the Danish Opening last less than 20 moves as
 
 ### Duckduckgo results about Danish Gambit
 
-The Danish Gambit is an aggressive 1.e4 e5 opening for White. This opening is well-suited for aggressive players who don't mind sacrificing pawns for the initiative. Although it is rare in master-level play, the Danish Gambit can be a fun and playable opening for club-level players.
+The Danish Gambit starts with the moves 1.e4 e5 2.d4 exd4 3.c3. White attacks Black's only central pawn and offers a pawn sacrifice for quick development. The starting position of the Danish Gambit. White's third move aims to develop their pieces quickly, while Black moves their pawn repeatedly. If Black is careless, White can also recapture .
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.61Ir57OOAFHjWHKd6welLwHgFo&pid=Api)](https://www.youtube.com/watch?v=WBAxtec_clo)
@@ -701,7 +701,7 @@ After black defends with d5 the game will transpose into a reverse of the Dutch 
 
 ### Duckduckgo results about Bird’s Opening
 
-Bird's Opening is a chess opening named after Henry Bird, a 19th century English player. It involves the move 1.f4 and aims to control the e5-square, often leading to sharp and tactical play.
+Bird's Opening (or the Dutch Attack) is a chess opening characterised by the move: 1. f4. Named after 19th century English player Henry Bird, Bird's opening is a standard flank opening. White's strategic ideas involve control of the e5-square, offering good attacking chances at the expense of slightly weakening their own kingside. Black may .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.acgAsMO7PXQ06XCG39BMTgHgFo&pid=Api)](https://www.youtube.com/watch?v=J5qNc20njV4)
@@ -719,7 +719,7 @@ There are three main lines in the Grunfeld Defense. The exchange variation is th
 
 ### Duckduckgo results about Grunfeld Defense
 
-Learn about the chess opening Grünfeld Defence, named after Ernst Grünfeld and popularized by many top players. Find out its history, main lines, variations and examples.
+The Grünfeld Defence is a chess opening characterised by the moves: 1. d4 Nf6 2. c4 g6 3. ... Bogdan Lalić, The Grunfeld for the Attacking Player (Batsford, 2002) Michael Khodarkovsky, The Grünfeld Defence Revealed (Batsford, 2003) Dearing, Edward (2005). Challenging the Grunfeld.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.aE9eysT9hT3zSHERnCZo8wHgFo&pid=Api)](https://www.youtube.com/watch?v=n7wI5Z--G0Q)
@@ -754,7 +754,7 @@ At lower levels of chess and even club levels the Philidor Defense is common so 
 
 ### Duckduckgo results about Philidor Defense
 
-Learn about the chess opening 1.e4 e5 2.Nf3 d6, named after François-André Danican Philidor. Find out its history, main lines, variations, and examples of play.
+The Philidor Defence (or Philidor's Defence) is a chess opening characterised by the moves: . 1. e4 e5 2. Nf3 d6. The opening is named after the famous 18th-century player François-André Danican Philidor, who advocated it as an alternative to the common 2...Nc6.His original idea was to challenge White's centre by the pawn thrust ...f7-f5.. Today, the Philidor is known as a solid but .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.Z3t0FhlzA8cOwY8GWCrkTQHgFo&pid=Api)](https://www.youtube.com/watch?v=bZtFxf-oDR8)
@@ -805,7 +805,7 @@ While this isn’t the strongest move from white there are still some interest l
 
 ### Duckduckgo results about Grob Attack
 
-Grob's Attack, or the Grob Opening, is an unconventional chess opening in which White begins with the move: 1. g4. It is widely considered to be one of the worst possible first moves for White. International Master (IM) John Watson writes, "As far as I can tell, 1 g4 is competitive with 1 h4 for the honour of being White's worst first move .
+Grob's Attack, or the Grob Opening, is an unconventional chess opening in which White begins with the move: 1. g4 It is widely considered to be one of the worst possible first moves for White. International Master (IM) John Watson writes, "As far as I can tell, 1 g4 is competitive with 1 h4 for the honour of being White's worst first move.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.KSYIlCQnb9CLr00gPueBJgHgFo&pid=Api)](https://www.youtube.com/watch?v=LbrZnV38VMY)
@@ -823,7 +823,7 @@ Many players with the white pieces will choose the third move Nf3 instead of Nc3
 
 ### Duckduckgo results about Bogo Indian Defense
 
-Learn about the chess opening Bogo-Indian Defence, named after Efim Bogoljubow and played by many famous players. See the main variations, history, and references of this opening.
+The Bogo-Indian Defence is named after the Russian-born German master Efim Bogoljubow who is believed to have originated the opening and played it regularly in the 1920s. Subsequent prominent players to have adopted the Bogo-Indian include Aron Nimzowitsch, Paul Keres, Tigran Petrosian, Bent Larsen, Vasily Smyslov, Viktor Korchnoi, Ulf Andersson, Michael Adams and Nikita Vitiugov.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.qDjf0wUZa0gksBRrFaVpXwHgFo&pid=Api)](https://www.youtube.com/watch?v=3HqUziP4nhE)
@@ -843,7 +843,7 @@ White usually continues with Qh5+. This gets the most important piece into the a
 
 ### Duckduckgo results about Jerome Gambit
 
-The Jerome Gambit is an unsound chess opening that sacrifices two pieces for two pawns in the Giuoco Piano. Learn about its history, analysis and an illustrative game by Blackburne.
+The Jerome Gambit is an unsound chess opening which is an offshoot of the Giuoco Piano.It is characterized by the moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Bxf7+?! Kxf7 5. Nxe5+ Nxe5. White sacrifices two pieces (and eventually regains one) for two pawns in hopes of exposing Black's king and obtaining a mating attack.The line was a brief fad in the late 19th century, but it is almost never seen .
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.Pz5kHBmkPoR9BF48pbD9RQHgFo&pid=Api)](https://www.youtube.com/watch?v=kBL8YgmWizk)
@@ -860,7 +860,7 @@ What makes this is such an interesting opening is that white does not have many 
 
 ### Duckduckgo results about Latvian Gambit
 
-The Latvian Gambit (or Greco Countergambit) is a chess opening characterised by the moves: 1. e4 e5 2. Nf3 f5?! It is one of the oldest chess openings, having been analysed in the 16th century by Giulio Cesare Polerio and then the 17th century by Gioachino Greco, after whom it is sometimes named. The opening has the appearance of a King's Gambit with colours reversed. It is an aggressive but .
+The Latvian Gambit (or Greco Countergambit) is a chess opening characterised by the moves: . 1. e4 e5 2. Nf3 f5?!. It is one of the oldest chess openings, having been analysed in the 16th century by Giulio Cesare Polerio and then the 17th century by Gioachino Greco, after whom it is sometimes named.The opening has the appearance of a King's Gambit with colours reversed.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.xuiYfvAAya5yinOhz89GNgHgFo&pid=Api)](https://www.youtube.com/watch?v=aw-yaJO48qQ)
@@ -896,7 +896,7 @@ Instead of counter attacking with the knight on f3, white gives that knight up i
 
 ### Duckduckgo results about Muzio Gambit
 
-In chess, the Muzio Gambit, sometimes called the Polerio Gambit, is an opening line in the King's Gambit in which White sacrifices a knight for a large lead in development and attacking chances.
+In chess, the Muzio Gambit, sometimes called the Polerio Gambit, is an opening line in the King's Gambit in which White sacrifices a knight for a large lead in development and attacking chances. It begins with the moves: 1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. 0-0. White offers a knight, aiming to exploit Black's weakness on the f-file [1] to attack the black king.
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVP.cJU6VzHrS903WCKaKCFApgHgFo&pid=Api)](https://www.youtube.com/watch?v=lA7cKTuI7Jk)
@@ -955,7 +955,7 @@ Before we dive into the waters of the Geller Gambit, let’s set the baseline. P
 
 ### Duckduckgo results about Slav Geller Gambit
 
-Slav Defense: Modern, Geller Gambit 1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e4. Top Players
+Learn the Slav Defense: Modern, Geller Gambit with free tools and analysis from Chess.com. Improve your opening repertoire and crush your opponents!
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.8vvoYr6CJ-woosdTxVBIlQHgFo&pid=Api)](https://www.youtube.com/watch?v=8G9s8t0_DCg)
@@ -988,7 +988,7 @@ Black responds with 1….c6 with the idea of thrusting forward with d5 on the ne
 
 ### Duckduckgo results about Caro-Kann
 
-The Caro-Kann is named for Horatio Caro and Marcus Kann, two 19th century players who analyzed it. Its first appearance in a published game came between two unknown players in 1845, while the analysis by Caro and Kann came in the 1880s. Like many openings, the Caro-Kann did not gain much respect until the 20th century.
+The Caro-Kann is a somewhat complicated opening with several respected variations. On White's second move, 2.d4 is by far the most common. The main exception to know is the Two Knights Defense (1.e4 c6 2.Nf3 d5 3.Nc3).
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVF.CdUQuaGNacWXz0vnE2vPng&pid=Api)](https://www.youtube.com/watch?v=6rNluLQajjE)
@@ -1022,7 +1022,7 @@ The dance begins with the classic 1.e4. In response, Black sets the stage for th
 
 ### Duckduckgo results about The Alien Gambit Trap
 
-The Alien Gambit Trap Unpacking the Alien Gambit: A Surprise Weapon Against the Caro-Kann Welcome back, chess aficionados! We're diving into an intriguing new opening that's making waves in the chess community: the Alien Gambit.
+The Alien Gambit Trap Unpacking the Alien Gambit: A Surprise Weapon Against the Caro-Kann. Welcome back, chess aficionados! We're diving into an intriguing new opening that's making waves in the chess community: the Alien Gambit. This fresh strategy turns the tables on Caro-Kann players and can lead to some pretty exciting complications .
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVF.MqLiUN%2fUNRfMXQTgijOr4Q&pid=Api)](https://www.youtube.com/watch?v=DSjivfu000g)
@@ -1039,7 +1039,7 @@ If black accepts the gambit 2…dxc4 white should reply 3. e3 which not only giv
 
 ### Duckduckgo results about Queens Gambit
 
-The Queen's Gambit is a 2020 American coming-of-age period drama television miniseries based on the 1983 novel of the same name by Walter Tevis.The title refers to the "Queen's Gambit", a chess opening.The series was written and directed by Scott Frank, who created it with Allan Scott, who owns the rights to the book.Beginning in the mid-1950s and proceeding into the 1960s, the story follows .
+The Queen's Gambit is a 2020 American coming-of-age period drama television miniseries based on the 1983 novel of the same name by Walter Tevis. The title refers to the "Queen's Gambit", a chess opening. The series was written and directed by Scott Frank, who created it with Allan Scott, who owns the rights to the book.
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVF.O%2f2qivyc1%2fyXWGt%2bGrz%2b8g&pid=Api)](https://www.youtube.com/watch?v=UF_fgL1B53Q)
@@ -1073,7 +1073,7 @@ The opening has been called the “quiet game” but for anyone who has played t
 
 ### Duckduckgo results about Giuoco Piano
 
-Giuoco Piano is a chess opening that begins with 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5. Learn about its history, variations, and examples of modern play.
+The Giuoco Piano (pronounced [ˈdʒwɔːko ˈpjaːno]; Italian for 'Quiet Game') [1] is a chess opening beginning with the moves: . 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 "White aims to develop quickly - but so does Black. White can construct a pawn centre but in unfavourable conditions a centre which cannot provide a basis for further active play." [4]The name "Italian Game" is also commonly used .
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVF.su0trLOw1KtP7l77mctY7g&pid=Api)](https://www.youtube.com/watch?v=HC1e2Oyydoc)
@@ -1108,7 +1108,7 @@ Watch the video below to get a detailed explanation of the Petrov Defense.
 
 ### Duckduckgo results about Petrov Defense
 
-Petrov's Defence is a chess opening characterised by 1. e4 e5 2. Nf3 Nf6. It has a drawish reputation but offers attacking opportunities for both sides. Learn about its history, variations, and examples.
+Petrov's Defence or the Petrov Defence (also called Petroff Defence, Petrov's Game, Russian Defence, or Russian Game - Russian: Русская партия) is a chess opening characterised by the following moves: . 1. e4 e5 2. Nf3 Nf6. Though this symmetrical response has a long history, it was first popularised by Alexander Petrov, a Russian chess player in the mid-19th century.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVF.yjeUq1WMqBNPCg%2f5xlbhFQ&pid=Api)](https://www.youtube.com/watch?v=8dG4MFvhodo)

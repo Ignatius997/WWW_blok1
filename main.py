@@ -1,5 +1,7 @@
 import os
 import enum
+import sys
+
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -119,6 +121,8 @@ def gather_openings_information(soup):
     ]
 
 def gather_website_information(src):
+    print("Gathering website information...", file=sys.stderr)
+
     soup = BeautifulSoup(src, features='html.parser')
     title, desc = scrape_title_and_desc(soup)
     openings = gather_openings_information(soup)
@@ -133,6 +137,17 @@ def assemble_basic_markdown(desc, info):
         basic_md += f"{opening.desc}\n\n"
 
     return basic_md
+
+def jekylled_md(opening_name, md_text):
+    md = f"""---
+layout: post
+title:  {opening_name}
+---\n\n"""
+    md += '\n'.join(md_text.split('\n')[1:]) # First line removed
+    return md
+
+def jekylled_post_name(opening_name):
+    return f"{DATE}-{opening_name.replace(' ', '-').lower()}"
 
 def assemble_enhanced_markdown(desc, info):
     enhanced_md = f"# {info.title}\n\n{desc}\n\n"
@@ -188,10 +203,10 @@ def assemble_enhanced_markdown(desc, info):
         openings_sorted.append(t)
 
         # Add the opening md to _posts
-        mdsave(s, f'jk-chess/_posts/{opening.name}')
+        mdsave(jekylled_md(opening.name, s), f'jk-chess/_posts/' + jekylled_post_name(opening.name))
 
-    def sort_key(t): # Sort by views with None values equal to -inf
-        return t[1] if t[1] is not None else float('-inf')
+    def sort_key(el): # Sort by views with None values equal to -inf
+        return el[1] if el[1] is not None else float('-inf')
     openings_sorted = sorted(openings_sorted, key=sort_key, reverse=True)
 
     for opening in openings_sorted:
@@ -200,10 +215,14 @@ def assemble_enhanced_markdown(desc, info):
     return enhanced_md
 
 def create_basic_markdown(chess_website_information):
+    print("Creating basic markdown...", file=sys.stderr)
+
     desc = f"#### {chess_website_information.desc}\n\n"
     return assemble_basic_markdown(desc, chess_website_information)
 
 def create_enhanced_markdown(chess_website_information):
+    print("Creating enhanced markdown...", file=sys.stderr)
+
     desc = f'#### {chess_website_information.desc}\n\n'
     return assemble_enhanced_markdown(desc, chess_website_information)
 
@@ -232,6 +251,7 @@ def ask_for_mode():
 def main():
     global mode
     mode = ask_for_mode()
+    print(mode)
 
     if mode == Mode.BRUTAL:
         chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
@@ -239,9 +259,6 @@ def main():
         mdsave(basic_markdown, 'basic_markdown')
         enhanced_markdown = create_enhanced_markdown(chess_website_information)
         mdsave(enhanced_markdown, 'enhanced_markdown')
-
-        # for file in os.listdir('jk-chess/_posts'):
-        #     os.remove(os.path.join('jk-chess', file))
 
     else:
         if not os.path.isfile('basic_markdown.md') or not os.path.isfile('enhanced_markdown.md'):
@@ -270,7 +287,6 @@ def _check_ddg_text(query):
         print('Body:',  result['body'])
         print(_SEPARATOR)
 
-
 def _check_ddq_video(query):
     """
     APPROVED 20:33
@@ -289,7 +305,6 @@ def _check_ddq_video(query):
         print('statistics:', result['statistics'])
         print('statistics["viewCount"]:', result['statistics']['viewCount'])
         print(_SEPARATOR)
-
 
 def check_ddg():
     """
