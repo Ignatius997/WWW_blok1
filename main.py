@@ -15,7 +15,9 @@ class Mode(enum.Enum):
 
 # Global variables
 DUCK = DDGS() # Global DuckDuckGo search object
-ERROR_COUNT = 0
+ERROR_COUNT = 0 # DuckDuckGo search error count
+DATE = '2025-03-24' # Date of the post
+mode = Mode.GENTLE # Mode of the script
 
 CHESS_SITE_URL = 'https://www.thechesswebsite.com/chess-openings/'
 SUBSITE_SRC_CLASS = 'grid-65 mobile-grid-100 nopadding normal-left-col cb-post-grid'
@@ -185,6 +187,9 @@ def assemble_enhanced_markdown(desc, info):
         t = (s, ddg_video_views)
         openings_sorted.append(t)
 
+        # Add the opening md to _posts
+        mdsave(s, f'jk-chess/_posts/{opening.name}')
+
     def sort_key(t): # Sort by views with None values equal to -inf
         return t[1] if t[1] is not None else float('-inf')
     openings_sorted = sorted(openings_sorted, key=sort_key, reverse=True)
@@ -225,6 +230,7 @@ def ask_for_mode():
     return Mode.GENTLE if mode is None or mode == '1' else Mode.BRUTAL
 
 def main():
+    global mode
     mode = ask_for_mode()
 
     if mode == Mode.BRUTAL:
