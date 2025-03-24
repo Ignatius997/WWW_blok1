@@ -4,3 +4,6 @@
     - Znaki nowej linii mają być markdown-owe (czyli dwie spacje na końcu linii)
 2. Zescrape'ować dodatkowe informacje z kaczki czy czego tam używamy
 3. Zrobić porządek z kodem, bo wygląda okropnie
+4. Zapisać każde otwarcie w oddzielnym pliku markdown w /jk-chess/_post z ustawieniem `layout:`
+
+Ostatni krok: czyszczenie.
