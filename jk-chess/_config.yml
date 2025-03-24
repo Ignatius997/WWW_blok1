@@ -1,0 +1,9 @@
+title: "Chess Openings"
+description: "A website about various chess openings"
+posts_dir: _posts
+collections:
+  posts:
+    output: true
+
+theme: minima
+markdown: kramdown
