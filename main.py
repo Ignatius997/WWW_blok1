@@ -5,8 +5,9 @@ import time
 from duckduckgo_search import DDGS
 from duckduckgo_search.exceptions import DuckDuckGoSearchException
 
-# TODO Posortować otwarcia według wyświetleń filmów z DuckDuckGo
+# TODO Add comments
 
+# Global variables
 DUCK = DDGS() # Global DuckDuckGo search object
 ERROR_COUNT = 0
 
@@ -51,6 +52,12 @@ class WebsiteInformation:
         self.openings = openings
 
 def scrape_title_and_desc(soup):
+    """
+    Scrape the title and description of the website.
+    This function is an exaggeration, but it's here as a scraping exercise.
+    :param soup: BeautifulSoup object
+    :return: (title, first paragraph) tuple
+    """
     t = soup.find_all('div', class_='elementor-widget-container')
     title = t[6].get_text(strip=True)
     desc = t[7].get_text()
@@ -59,6 +66,11 @@ def scrape_title_and_desc(soup):
     return title, fp_short
 
 def get_desc(link):
+    """
+    Scrape the description of the opening from a particular opening page.
+    :param link: URL of the opening page
+    :return: Description of the opening
+    """
     soup = BeautifulSoup(get_src(link), features='html.parser')
     div = soup.find('div', class_=SUBSITE_SRC_CLASS)
     par = div.find_all('p')
@@ -70,10 +82,21 @@ def get_desc(link):
     return desc
 
 def gather_openings_information(soup):
+    """
+    Gather information about the openings from the website source given as a BeautifulSoup object.
+
+    :param soup:
+    :return:
+    """
     openings_div = soup.find_all('div', id='cb-container')[1]
     raw_openings = list(openings_div.find_all('a'))
 
     def is_access_granted(opening):
+        """
+        Determines whether the opening is available in non-premium mode.
+        :param opening: opening name
+        :return: True if the opening is available in non-premium mode, False otherwise
+        """
         span = opening.find('span')
         return span is None or span.get_text() != 'MEMBERS ONLY'
 
@@ -84,7 +107,7 @@ def gather_openings_information(soup):
             opening.find('img')['src']
         )
         for opening in raw_openings
-        if is_access_granted(opening)
+        if is_access_granted(opening) # Not all openings are available in non-premium mode
     ]
 
 def gather_website_information(src):
