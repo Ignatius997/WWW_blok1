@@ -1,19 +1,14 @@
-from random import sample
-
 import requests
 from bs4 import BeautifulSoup
 import re
 import time
-# from googlesearch import search
 from duckduckgo_search import DDGS
+from duckduckgo_search.exceptions import DuckDuckGoSearchException
 
-DUCK = DDGS()
+# TODO Posortować otwarcia według wyświetleń filmów z DuckDuckGo
 
-# FIXME jakiś błąd z rozwiązaniem tego `from googlesearch import search`
-#   Rozwiązania:
-#       1. Zmienić to na duckduckgo. Problem: praktycznie taki sam
-#       2. Zgłębić, o co chodzi z tym search-em.
-#   Wybieram rozwiązanie 2.
+DUCK = DDGS() # Global DuckDuckGo search object
+ERROR_COUNT = 0
 
 CHESS_SITE_URL = 'https://www.thechesswebsite.com/chess-openings/'
 SUBSITE_SRC_CLASS = 'grid-65 mobile-grid-100 nopadding normal-left-col cb-post-grid'
@@ -101,7 +96,7 @@ def gather_website_information(src):
 def assemble_basic_markdown(desc, info):
     basic_md = f"# {info.title}\n\n{desc}\n\n"
 
-    for opening in info.openings[:5]: # FIXME zmienić na całość po testach
+    for opening in info.openings: # FIXME zmienić na całość po testach
         basic_md += f"## {opening.name}\n\n"
         basic_md += f"![{opening.name}]({opening.picture})\n\n"
         basic_md += f"{opening.desc}\n\n"
@@ -110,24 +105,74 @@ def assemble_basic_markdown(desc, info):
 
 def assemble_enhanced_markdown(desc, info):
     enhanced_md = f"# {info.title}\n\n{desc}\n\n"
+    openings_sorted = []
 
-    for opening in info.openings[:5]: # FIXME zmienić na całość po testach
-        enhanced_md += f"## {opening.name}\n\n"
-        enhanced_md += f"![{opening.name}]({opening.picture})\n\n"
-        enhanced_md += f"{opening.desc}\n\n"
 
-        ddg_text = DUCK.text(opening.name, max_results=1)[0]
-        if (opening.name == "Belgrade Gambit"):
-            ddg_text_link = ddg_text['href']
-        ddg_text = ddg_text['body']
-        ddg_video = DUCK.videos(opening.name, max_results=1)[0]
-        ddg_video_link = ddg_video['content']
-        ddg_video_image = ddg_video['images']['medium']
+    for opening in info.openings: # FIXME zmienić na całość po testach
+        global ERROR_COUNT
 
-        enhanced_md += f"### Duckduckgo results about {opening.name}\n\n"
-        enhanced_md += f"{ddg_text}\n\n"
-        enhanced_md += f"Video:\n[![]({ddg_video_image})]({ddg_video_link})\n\n"
+        # Add basic information
+        s = f"## {opening.name}\n\n"
+        s += f"![{opening.name}]({opening.picture})\n\n"
+        s += f"{opening.desc}\n\n"
 
+        # Search for information with DuckDuckGo
+        # ddg_text = DUCK.text(opening.name, backend='html')[0]['body']
+        # if ddg_text.endswith('...'): # Handle weird search results
+        #     sentences = ddg_text.split('.')
+        #     if len(sentences) > 2:
+        #         ddg_text = '.'.join(sentences[:-3]) + '.'
+
+        # Search for information with DuckDuckGo
+        while True:
+            try:
+                ddg_text = DUCK.text(opening.name, backend='html')[0]['body']
+                if ddg_text.endswith('...'):  # Handle weird search results
+                    sentences = ddg_text.split('.')
+                    if len(sentences) > 2:
+                        ddg_text = '.'.join(sentences[:-3]) + '.'
+                break
+            except DuckDuckGoSearchException as e:
+                ERROR_COUNT += 1
+                if ERROR_COUNT == 10:
+                    print("Too many errors. Exiting...")
+                    exit(1)
+                print(f"Error: {e}. Retrying in 10 seconds...")
+                time.sleep(10)
+
+        # Search for video with DuckDuckGo
+        while True:
+            try:
+                ddg_video = DUCK.videos(opening.name)[0]
+                ddg_video_views = ddg_video['statistics']['viewCount']
+                ddg_video_link = ddg_video['content']
+                ddg_video_image = ddg_video['images']['medium']
+                break
+            except DuckDuckGoSearchException as e:
+                ERROR_COUNT += 1
+                if ERROR_COUNT == 10:
+                    print("Too many errors. Exiting...")
+                    exit(1)
+                print(f"Error: {e}. Retrying in 10 seconds...")
+                time.sleep(10)
+
+        # Search for video with DuckDuckGo
+        # ddg_video = DUCK.videos(opening.name)[0]
+        # ddg_video_views = ddg_video['statistics']['viewCount']
+        # ddg_video_link = ddg_video['content']
+        # ddg_video_image = ddg_video['images']['medium']
+
+        # Add DuckDuckGo information
+        s += f"### Duckduckgo results about {opening.name}\n\n"
+        s += f"{ddg_text}\n\n"
+        s += f"Video:  \n[![]({ddg_video_image})]({ddg_video_link})\n\n"
+
+        t = (s, ddg_video_views)
+        openings_sorted.append(t)
+
+    openings_sorted = sorted(openings_sorted, key=lambda t: t[0])
+    for opening in openings_sorted:
+        enhanced_md += opening[0]
     return enhanced_md
 
 def create_basic_markdown(chess_website_information):
@@ -179,6 +224,8 @@ def _check_ddq_video(query):
         print('image_token:', result['image_token'])
         print('medium image:', result['images']['medium'])
         print('description:', result['description'])
+        print('statistics:', result['statistics'])
+        print('statistics["viewCount"]:', result['statistics']['viewCount'])
         print(_SEPARATOR)
 
 
@@ -187,8 +234,8 @@ def check_ddg():
     APPROVED 20:33
     """
     query = "polska niemcy francja"
-    _check_ddg_text(query)
-    # _check_ddq_video(query)
+    # _check_ddg_text(query)
+    _check_ddq_video(query)
 
 if __name__ == '__main__':
     start_time = time.time()
