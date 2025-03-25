@@ -27,7 +27,9 @@ przy pomocy `BeautifulSoup`.
 Plik zawiera wszystkie informacje zawarte w pliku
 `basic_markdown.md` oraz dodatkowe informacje
 i materiał wideo do każdego otwarcia wyszukane przy
-użyciu biblioteki `duckduckgo_search`. 
+użyciu biblioteki `duckduckgo_search`.
+Otwarcia są ponadto posortowane malejąco ze względu
+na liczbę wyświetleń odpowiadających im filmów.
 
 ___
 #### Brzydki wygląd strony internetowej
