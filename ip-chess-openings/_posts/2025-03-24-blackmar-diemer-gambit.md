@@ -15,7 +15,7 @@ From the second move white looks to give away his king’s pawn. Although many t
 
 ### Duckduckgo results about Blackmar-Diemer Gambit
 
-The Blackmar-Diemer Gambit (or BDG) is a chess opening characterized by the moves: 1. d4 d5 2. e4 dxe4 3. Nc3 where White intends to follow up with f3, usually on the fourth move. White obtains a tempo and a half-open f-file in return for a pawn, and as with most gambits, White aims to achieve rapid development and active posting of their pieces in order to rapidly build up an attack at the .
+The Blackmar-Diemer Gambit (or BDG) is a chess opening characterized by the moves: . 1. d4 d5 2. e4 dxe4 3. Nc3. where White intends to follow up with f3, usually on the fourth move. White obtains a tempo and a half-open f-file in return for a pawn, and as with most gambits, White aims to achieve rapid development and active posting of their pieces in order to rapidly build up an attack at .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.35mF4-fu3sBVDrRlpWLjRgHgFo&pid=Api)](https://www.youtube.com/watch?v=mxtUxgupAHY)

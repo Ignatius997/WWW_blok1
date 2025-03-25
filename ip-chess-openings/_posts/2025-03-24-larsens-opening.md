@@ -13,7 +13,7 @@ If white wants to play more aggressive he can always play e3 followed by f4 and 
 
 ### Duckduckgo results about Larsens Opening
 
-The Nimzowitsch-Larsen Attack (also known as the Nimzo-Larsen Attack, Larsen's Opening and Queen's Fianchetto Opening) is a chess opening typically starting with the move: 1. b3 but sometimes introduced by the move order 1.Nf3 and then 2.b3. The flank opening move 1.b3 prepares to fianchetto the queen's bishop where it will help control the central squares in hypermodern fashion and put .
+The Nimzowitsch-Larsen Attack (also known as the Nimzo-Larsen Attack, Larsen's Opening and Queen's Fianchetto Opening) is a chess opening typically starting with the move: 1.b3 but sometimes introduced by the move order 1.Nf3 and then 2.b3. The flank opening move 1.b3 prepares to fianchetto the queen's bishop where it will help control the central squares in hypermodern fashion and put .
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVP.Kecs4eloCnipB52a-wTDgAHgFo&pid=Api)](https://www.youtube.com/watch?v=tqUOuk7Cirs)

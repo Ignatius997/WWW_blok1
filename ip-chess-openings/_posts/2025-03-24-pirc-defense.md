@@ -15,7 +15,7 @@ There are two main attacks that white has to play against the Pirc Defense. The 
 
 ### Duckduckgo results about Pirc Defense
 
-Learn the Pirc Defense, a hypermodern way for Black to respond to White's 1.e4. Explore the main variations, tactics, and strategies in this opening with examples and lessons.
+Learn about the Pirc Defence, a chess opening characterised by Black's response to 1.e4 with 1...d6 and 2...Nf6. Find out its history, variations, main lines and examples.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.fn_9-Z6kPF3d_G4nSlrb9wHgFo&pid=Api)](https://www.youtube.com/watch?v=pEQdCWwH-YU)

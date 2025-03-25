@@ -11,7 +11,7 @@ Before we dive into the waters of the Geller Gambit, let’s set the baseline. P
 
 ### Duckduckgo results about Slav Geller Gambit
 
-Learn the Slav Defense: Modern, Geller Gambit with free tools and analysis from Chess.com. Improve your opening repertoire and crush your opponents!
+Slav Defense: Modern, Geller Gambit 1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e4. Top Players
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.8vvoYr6CJ-woosdTxVBIlQHgFo&pid=Api)](https://www.youtube.com/watch?v=8G9s8t0_DCg)

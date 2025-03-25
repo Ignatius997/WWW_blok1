@@ -10,7 +10,7 @@ title:  Fajarowicz Gambit
 
 ### Duckduckgo results about Fajarowicz Gambit
 
-Real blitz games in this opening: https://youtu.be/Y07i6jjQTLoBudapest Gambit - Fajarowicz Variation:1.d4 Nf62.c4 e53.dxe5 Ne40:00 Intro4:52 4.f36:45 4.Nc39:.
+Fajarowicz Gambit Fajarowicz Gambit - Chess Opening Tricks and Strategy Welcome chess enthusiasts! excited to bring you insights into a particularly sneaky line in chess openings - the Fajarowicz variation. This cunning tactic diverges from the conventional paths of the Budapest defense, and today we'll unravel its mysteries.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.j9UoDMcW0ilUi21hI0fEpgHgFo&pid=Api)](https://www.youtube.com/watch?v=LdfJ2dylQx8)
