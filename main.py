@@ -142,7 +142,7 @@ def gather_website_information(src):
 def assemble_basic_markdown(desc, info):
     basic_md = f"# {info.title}\n\n{desc}\n\n"
 
-    for opening in info.openings: # FIXME zmienić na całość po testach
+    for opening in info.openings:
         basic_md += f"## {opening.name}\n\n"
         basic_md += f"![{opening.name}]({opening.picture})\n\n"
         basic_md += f"{opening.desc}\n\n"
@@ -164,7 +164,7 @@ def assemble_enhanced_markdown(desc, info):
     enhanced_md = f"# {info.title}\n\n{desc}\n\n"
     openings_sorted = []
 
-    for opening in info.openings: # FIXME zmienić na całość po testach
+    for opening in info.openings:
         global ERROR_COUNT
 
         # Add basic information
