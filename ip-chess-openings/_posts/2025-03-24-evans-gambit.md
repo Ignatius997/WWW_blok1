@@ -16,7 +16,7 @@ Much like other gambits, the Evan’s Gambit gives up an early pawn in exchange 
 
 ### Duckduckgo results about Evans Gambit
 
-The Evans Gambit is a chess opening characterised by the moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 The Evans Gambit is an attacking line of the Giuoco Piano. White offers a pawn to divert the black bishop on c5. If Black accepts, White can follow up with c3 and d4, ripping open the centre, while also opening diagonals to play Ba3 or Qb3 at some point, preventing Black from castling kingside .
+Learn about the Evans Gambit, a chess opening that offers a pawn to divert the black bishop on c5. Find out its history, variations, analysis and famous games.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.t2eET7LXNmtf26EHoR30eAHgFo&pid=Api)](https://www.youtube.com/watch?v=CUQQ4dym5ZU)

@@ -1,9 +1,16 @@
 title: "Chess Openings"
 description: "A website about various chess openings"
 posts_dir: _posts
+
 collections:
   posts:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      data: "site_info.yml"
+
 theme: minima
-#markdown: kramdown
+markdown: kramdown

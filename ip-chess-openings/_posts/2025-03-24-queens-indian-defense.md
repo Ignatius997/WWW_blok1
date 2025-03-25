@@ -15,7 +15,7 @@ Black prepares to fiachetto his light square bishop and try to take control over
 
 ### Duckduckgo results about Queens Indian Defense
 
-The Queen's Indian Defense [1] (QID) is a chess opening defined by the moves: . 1. d4 Nf6 2. c4 e6 3. Nf3 b6. The opening is a solid defense to the Queen's Pawn Game. [2] 3...b6 increases Black's control over the central light squares e4 and d5 by preparing to fianchetto the queen's bishop, with the opening deriving its name from this maneuver.As in the other Indian defenses, Black attempts to .
+The Queen's Indian Defense is a hypermodern opening for Black in response to White's 1.d4. When coupled with the Nimzo-Indian Defense, Black gets a complete defense against White's queen's pawn openings. A solid opening, the Queen's Indian is a reputable option for players who seek a "risk-free" game. Players of all levels can play the Queen's Indian, although it is advisable to have a basic .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVF.8tAytgSte93UVFnEYm3gOA&pid=Api)](https://www.youtube.com/watch?v=yAd9Tu2b_2k)

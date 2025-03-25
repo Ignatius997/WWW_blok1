@@ -15,7 +15,7 @@ There are two main attacks that white has to play against the Pirc Defense. The 
 
 ### Duckduckgo results about Pirc Defense
 
-The Pirc Defence, named after Slovenian grandmaster Vasja Pirc, is a relatively new opening; while it was seen on occasion in the late nineteenth century, it was considered irregular, thus remaining a sideline.
+Learn the Pirc Defense, a hypermodern way for Black to respond to White's 1.e4. Explore the main variations, tactics, and strategies in this opening with examples and lessons.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.fn_9-Z6kPF3d_G4nSlrb9wHgFo&pid=Api)](https://www.youtube.com/watch?v=pEQdCWwH-YU)

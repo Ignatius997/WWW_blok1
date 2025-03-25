@@ -128,7 +128,7 @@ def gather_website_information(src):
     title, desc = scrape_title_and_desc(soup)
     openings = gather_openings_information(soup)
 
-    with open('ip-chess-openings/site_info.yml', 'w') as file:
+    with open('ip-chess-openings/_data/site_info.yml', 'w') as file:
         yaml.dump({
             'title': title,
             'desc': desc
@@ -211,7 +211,7 @@ def assemble_enhanced_markdown(desc, info):
         openings_sorted.append(t)
 
         # Add the opening md to _posts
-        mdsave(jekylled_md(opening.name, s), f'jk-chess/_posts/' + jekylled_post_name(opening.name))
+        mdsave(jekylled_md(opening.name, s), f'ip-chess-openings/_posts/' + jekylled_post_name(opening.name))
 
     def sort_key(el): # Sort by views with None values equal to -inf
         return el[1] if el[1] is not None else float('-inf')

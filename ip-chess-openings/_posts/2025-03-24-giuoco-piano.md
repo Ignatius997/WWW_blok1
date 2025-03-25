@@ -15,7 +15,7 @@ The opening has been called the “quiet game” but for anyone who has played t
 
 ### Duckduckgo results about Giuoco Piano
 
-The Giuoco Piano (pronounced [ˈdʒwɔːko ˈpjaːno]; Italian for 'Quiet Game') [1] is a chess opening beginning with the moves: . 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 "White aims to develop quickly - but so does Black. White can construct a pawn centre but in unfavourable conditions a centre which cannot provide a basis for further active play." [4]The name "Italian Game" is also commonly used .
+Giuoco Piano is a chess opening that begins with 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5. Learn about its history, variations, and examples of modern play.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVF.su0trLOw1KtP7l77mctY7g&pid=Api)](https://www.youtube.com/watch?v=HC1e2Oyydoc)

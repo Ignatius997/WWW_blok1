@@ -13,7 +13,7 @@ While this isn’t the strongest move from white there are still some interest l
 
 ### Duckduckgo results about Grob Attack
 
-Grob's Attack, or the Grob Opening, is an unconventional chess opening in which White begins with the move: 1. g4 It is widely considered to be one of the worst possible first moves for White. International Master (IM) John Watson writes, "As far as I can tell, 1 g4 is competitive with 1 h4 for the honour of being White's worst first move.
+Grob's Attack, or the Grob Opening, is an unconventional chess opening in which White begins with the move: 1. g4. It is widely considered to be one of the worst possible first moves for White. International Master (IM) John Watson writes, "As far as I can tell, 1 g4 is competitive with 1 h4 for the honour of being White's worst first move .
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.KSYIlCQnb9CLr00gPueBJgHgFo&pid=Api)](https://www.youtube.com/watch?v=LbrZnV38VMY)

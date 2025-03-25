@@ -17,7 +17,7 @@ White’s most common move after 4…exd4 is to recapture with 5. Nxd4 but Nd5 a
 
 ### Duckduckgo results about Belgrade Gambit
 
-The Belgrade Gambit. Join GM Williams as he teaches you this easy yet aggressive way to open the game, "the perfect opening for a lazy person." 28 min 5 Challenges The Belgrade Gambit: Side Lines Simon Williams is back with another lesson on his secret weapon, the "spicy" Belgrade Gambit. Learn what to do if your opponent doesn't stick to .
+Join GM Simon Williams for another spicy gambit! This time Simon takes the quiet Four Knights opening and spices it up with a gambit, featuring a lot of his original analysis. Take the game out of theory and into a whirlwind attack as quickly as possible.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.6NFnVnPr9mrQCjXc8R0DZgGgII&pid=Api)](https://www.youtube.com/watch?v=1MKsjO6seBg)

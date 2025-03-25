@@ -14,7 +14,7 @@ White looks to give up the b pawn in exchange for the removal of black’s dange
 
 ### Duckduckgo results about Wing Gambit
 
-In chess, the Wing Gambit is an opening in which White plays an early b4, deflecting an enemy pawn or bishop from c5 so as to regain control of d4, an important central square.
+The Wing Gambit can also be played against the French Defence, although this is largely refuted at the grandmaster level.One line, as popularised by Gotham Chess, [2] goes 1.e4 e6 2.Nf3 d5 3.e5 c5 4.b4, and Black often takes cxb4, followed by White's a3 with a further gambit of a pawn in exchange for quick development of the minor pieces, and/or d4 and c3 to solidify the centre.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.XSEIEaofOexY7AR3-CXQwAHgFo&pid=Api)](https://www.youtube.com/watch?v=LMBF4FGzDD4)

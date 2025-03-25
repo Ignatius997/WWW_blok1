@@ -17,7 +17,7 @@ White usually continues with Qh5+. This gets the most important piece into the a
 
 ### Duckduckgo results about Jerome Gambit
 
-The Jerome Gambit is an unsound chess opening which is an offshoot of the Giuoco Piano.It is characterized by the moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Bxf7+?! Kxf7 5. Nxe5+ Nxe5. White sacrifices two pieces (and eventually regains one) for two pawns in hopes of exposing Black's king and obtaining a mating attack.The line was a brief fad in the late 19th century, but it is almost never seen .
+The Jerome Gambit is an unsound chess opening that sacrifices two pieces for two pawns in the Giuoco Piano. Learn about its history, analysis and an illustrative game by Blackburne.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.Pz5kHBmkPoR9BF48pbD9RQHgFo&pid=Api)](https://www.youtube.com/watch?v=kBL8YgmWizk)

@@ -13,7 +13,7 @@ Watch the video below to get a detailed explanation of the Petrov Defense.
 
 ### Duckduckgo results about Petrov Defense
 
-Petrov's Defence or the Petrov Defence (also called Petroff Defence, Petrov's Game, Russian Defence, or Russian Game - Russian: Русская партия) is a chess opening characterised by the following moves: . 1. e4 e5 2. Nf3 Nf6. Though this symmetrical response has a long history, it was first popularised by Alexander Petrov, a Russian chess player in the mid-19th century.
+Petrov's Defence is a chess opening characterised by 1. e4 e5 2. Nf3 Nf6. It has a drawish reputation but offers attacking opportunities for both sides. Learn about its history, variations, and examples.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVF.yjeUq1WMqBNPCg%2f5xlbhFQ&pid=Api)](https://www.youtube.com/watch?v=8dG4MFvhodo)

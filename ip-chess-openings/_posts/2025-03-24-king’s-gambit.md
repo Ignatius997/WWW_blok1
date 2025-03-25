@@ -14,7 +14,7 @@ Black can accept or decline the gambit. Most players choose to accept the gambit
 
 ### Duckduckgo results about King’s Gambit
 
-The King's Gambit is an age-old aggressive opening that Romantic chess players revered. Largely employed by top players for more than 300 years, this opening leads to open games that are exciting and, in most cases, decisive. With the rise of engines and computer analysis, top players have virtually abandoned the King's Gambit in high-stakes games because of its risky nature.
+The King's Gambit is an age-old aggressive opening that Romantic chess players revered. Largely employed by top players for more than 300 years, this opening leads to open games that are exciting and, in most cases, decisive. With the rise of engines and computer analysis, top players have virtually abandoned the King's Gambit in high-stakes games because of its risky nature. However, tactical .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.tinhDT1yGzjIHfDl-IeaYAHgFo&pid=Api)](https://www.youtube.com/watch?v=33irQXGVPPs)

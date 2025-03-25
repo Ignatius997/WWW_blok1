@@ -14,7 +14,7 @@ If black accepts the gambit 2…dxc4 white should reply 3. e3 which not only giv
 
 ### Duckduckgo results about Queens Gambit
 
-The Queen's Gambit is a 2020 American coming-of-age period drama television miniseries based on the 1983 novel of the same name by Walter Tevis. The title refers to the "Queen's Gambit", a chess opening. The series was written and directed by Scott Frank, who created it with Allan Scott, who owns the rights to the book.
+The Queen's Gambit is a 2020 American coming-of-age period drama television miniseries based on the 1983 novel of the same name by Walter Tevis.The title refers to the "Queen's Gambit", a chess opening.The series was written and directed by Scott Frank, who created it with Allan Scott, who owns the rights to the book.Beginning in the mid-1950s and proceeding into the 1960s, the story follows .
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVF.O%2f2qivyc1%2fyXWGt%2bGrz%2b8g&pid=Api)](https://www.youtube.com/watch?v=UF_fgL1B53Q)
