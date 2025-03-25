@@ -237,16 +237,16 @@ def mdsave(md_text: str, name: str):
         file.write(md_text)
 
 def ask_for_mode():
-    mode = input("""Please choose the mode:
+    m = input("""Please choose the mode:
         1. Create markdown files only if they don't exist.
         2. Create markdown files regardless of their existence.
         Type "1" or "2" (skip for default - 1): """)
 
-    if mode is not None and mode not in ['1', '2']:
+    if m is not None and m not in ['1', '2']:
         print("Invalid mode. Exiting...")
         exit(1)
 
-    return Mode.GENTLE if mode is None or mode == '1' else Mode.BRUTAL
+    return Mode.GENTLE if m is None or m == '1' else Mode.BRUTAL
 
 def main():
     global mode

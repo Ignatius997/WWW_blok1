@@ -11,5 +11,6 @@
     title: "Adelaide Counter Gambit"
     ---
 ```
+5. Zrobić stronkę w jekyllu, żeby to wyglądało ładnie
 
 Ostatni krok: czyszczenie.
