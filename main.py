@@ -10,8 +10,6 @@ from duckduckgo_search import DDGS
 from duckduckgo_search.exceptions import DuckDuckGoSearchException
 import yaml
 
-# TODO Add comments
-
 class Mode(enum.Enum):
     GENTLE = 1 # Create markdown files only if they don't exist
     BRUTAL = 2 # Create markdown files regardless of their existence
@@ -31,18 +29,10 @@ _HEADERS = {
 }
 _SEPARATOR = '\n================================================================================\n'
 
-_albin = 'https://www.thechesswebsite.com/albin-counter-gambit/'
-_belgrade = 'https://www.thechesswebsite.com/belgrade-gambit/'
-_benoni = 'https://www.thechesswebsite.com/benoni-defense/'
-_bird = 'https://www.thechesswebsite.com/birds-opening/'
-_bishop = 'https://www.thechesswebsite.com/bishops-opening/'
-
-def get_src(link):
-    chess_request = requests.get(link, headers=_HEADERS)
-    assert chess_request.status_code == 200
-    return chess_request.text
-
 class OpeningInformation:
+    """
+    Class representing information about a chess opening scraped from the main chess iste.
+    """
     def __init__(self, name, desc, picture):
         self.name = name
         self.desc = desc
@@ -57,10 +47,23 @@ class OpeningInformation:
         )
 
 class WebsiteInformation:
+    """
+    Class representing information about a main chess openings website.
+    """
     def __init__(self, title, desc, openings):
         self.title = title
         self.desc = desc
         self.openings = openings
+
+def get_src(link):
+    """
+    Get the html source code of the website.
+    :param link: URL of the website
+    :return: Source code of the website in html
+    """
+    chess_request = requests.get(link, headers=_HEADERS)
+    assert chess_request.status_code == 200
+    return chess_request.text
 
 def scrape_title_and_desc(soup):
     """
@@ -90,14 +93,14 @@ def get_desc(link):
         if _HTML_TAG_PATTERN.match(par[i].decode_contents()):
             break
         desc += par[i].get_text() + '\n'
+
     return desc
 
 def gather_openings_information(soup):
     """
     Gather information about the openings from the website source given as a BeautifulSoup object.
-
-    :param soup:
-    :return:
+    :param soup: BeautifulSoup object
+    :return: List of OpeningInformation objects
     """
     openings_div = soup.find_all('div', id='cb-container')[1]
     raw_openings = list(openings_div.find_all('a'))
@@ -122,6 +125,11 @@ def gather_openings_information(soup):
     ]
 
 def gather_website_information(src):
+    """
+    Gathers information about the website from the source code.
+    :param src: Source code of the website (html)
+    :return:
+    """
     print("Gathering website information...", file=sys.stderr)
 
     soup = BeautifulSoup(src, features='html.parser')
