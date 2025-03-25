@@ -14,7 +14,7 @@ White decides to develop the light square bishop before bringing the knight to f
 
 ### Duckduckgo results about Bishop’s Opening
 
-Learn about the chess opening that begins with 1.e4 e5 2.Bc4, and its variations and history. Find out how White attacks Black's f7-square and prevents d5, and how Black can respond with different moves.
+The Bishop's Opening is a chess opening that begins with the moves: . 1. e4 e5 2. Bc4. White attacks Black's f7-square and prevents Black from advancing the d-pawn to d5. By ignoring the beginner's maxim "develop knights before bishops", White leaves their f-pawn unblocked, preserving the possibility of f2-f4.. The f2-f4 push gives the Bishop's Opening an affinity with the King's Gambit .
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.wwloTtBU9ilMVY1UU7fvFgHgFo&pid=Api)](https://www.youtube.com/watch?v=Qb3PWiIbIJs)

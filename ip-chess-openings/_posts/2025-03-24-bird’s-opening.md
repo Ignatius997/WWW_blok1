@@ -13,7 +13,7 @@ After black defends with d5 the game will transpose into a reverse of the Dutch 
 
 ### Duckduckgo results about Bird’s Opening
 
-Bird's Opening is a chess opening named after Henry Bird, a 19th century English player. It involves the move 1.f4 and aims to control the e5-square, often leading to sharp and tactical play.
+Bird's Opening (or the Dutch Attack) is a chess opening characterised by the move: 1. f4 Named after 19th century English player Henry Bird, Bird's opening is a standard flank opening. White's strategic ideas involve control of the e5-square, offering good attacking chances at the expense of slightly weakening their own kingside.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.acgAsMO7PXQ06XCG39BMTgHgFo&pid=Api)](https://www.youtube.com/watch?v=J5qNc20njV4)

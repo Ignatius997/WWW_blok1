@@ -13,7 +13,7 @@ The one thing black must always remember is that after his knight has been chase
 
 ### Duckduckgo results about Alekhine Defense
 
-Alekhine's Defence is a chess opening that begins with 1.e4 Nf6 and aims to undermine White's pawn centre. Learn about its history, variations, and examples from famous players and games.
+Alexander Alekhine first played Alekhine's Defense at Budapest in 1921, scoring a win and a draw, and continued playing it during the 1920s. Alekhine did not create the opening, and games from the 19th century that begin with 1.e4 Nf6 can be found, but his use popularized it. Alekhine. Photo: Wikimedia, public domain.
 
 Video:  
 [![](https://tse3.mm.bing.net/th?id=OVF.8FvQ9FkKaRhfziCjxgjKgA&pid=Api)](https://www.youtube.com/watch?v=17ZbZaKsAuQ)

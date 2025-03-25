@@ -15,7 +15,7 @@ Many players with the white pieces will choose the third move Nf3 instead of Nc3
 
 ### Duckduckgo results about Bogo Indian Defense
 
-In the Bogo-Indian Defense, named for GM Efim Bogoljubow, Black develops the kingside quickly.As with most hypermodern openings, the "Bogo" (as it is known informally) seeks to fight for central squares with pieces before occupying them with pawns.. Starting Position. The Bogo-Indian begins 1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+.Variations branch out depending on how White blocks the check.
+The Bogo-Indian Defence is named after the Russian-born German master Efim Bogoljubow who is believed to have originated the opening and played it regularly in the 1920s. Subsequent prominent players to have adopted the Bogo-Indian include Aron Nimzowitsch, Paul Keres, Tigran Petrosian, Bent Larsen, Vasily Smyslov, Viktor Korchnoi, Ulf Andersson, Michael Adams and Nikita Vitiugov.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.qDjf0wUZa0gksBRrFaVpXwHgFo&pid=Api)](https://www.youtube.com/watch?v=3HqUziP4nhE)

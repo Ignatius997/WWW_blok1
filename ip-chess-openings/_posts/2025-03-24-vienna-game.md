@@ -14,7 +14,7 @@ Black has three main options to respond to the Vienna Game. They are 2….Nf6, 2
 
 ### Duckduckgo results about Vienna Game
 
-The Vienna Game is a 1.e4 opening for White. Compared to other 1.e4 openings, the Vienna is much less common but theoretically sound. Because of this, it can be an excellent weapon for beginners to catch their opponents by surprise. The Vienna is also suitable for more experienced players, with GMs like Viswanathan Anand and Alexander Shabalov among the players who have played it.
+The Vienna Game starts after the moves 1.e4 e5 2.Nc3. Instead of the more common 2.Nf3, White chooses to develop the queenside knight. White's second move allows for a quick f2-f4 pawn-push. It also keeps the d1-h5 diagonal open for the queen, which can go to f3 or h5.
 
 Video:  
 [![](https://tse4.mm.bing.net/th?id=OVP.I3PTJtjdE8NWPj_-pyC5fgHgFo&pid=Api)](https://www.youtube.com/watch?v=6QQ5sw-SgNw)

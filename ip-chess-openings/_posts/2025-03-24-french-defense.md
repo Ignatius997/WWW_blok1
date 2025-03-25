@@ -13,7 +13,7 @@ From black’s first move, he looks to block the a2-g8 diagonal which is usually
 
 ### Duckduckgo results about French Defense
 
-The French Defense is one of the most popular Black responses to 1.e4. It has consistently been a part of masters' repertoire since the 1800s and one of the favorites of positional players. Usually leading to slower games, this opening is a good choice for players of all levels.
+The French Defense is one of the oldest openings in chess. The opening's name comes from an 1834 correspondence game between the London Chess Club and the Paris Chess Club. Although it has never surpassed other openings as Black's primary response to 1.e4, the French Defense has always been present in top games.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVF.20PbG%2fMPmky1rlIu3LZTMQ&pid=Api)](https://www.youtube.com/watch?v=5XoksjiX-Pk)

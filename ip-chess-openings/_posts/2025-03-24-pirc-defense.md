@@ -15,7 +15,7 @@ There are two main attacks that white has to play against the Pirc Defense. The 
 
 ### Duckduckgo results about Pirc Defense
 
-Learn about the Pirc Defence, a chess opening characterised by Black's response to 1.e4 with 1...d6 and 2...Nf6. Find out its history, variations, main lines and examples.
+The Pirc Defence, named after Slovenian grandmaster Vasja Pirc, is a relatively new opening; while it was seen on occasion in the late nineteenth century, it was considered irregular, thus remaining a sideline.The opening began gaining some popularity only after World War II, and by the 1960s it was regarded as playable, owing in large part to the efforts of Canadian grandmaster Duncan Suttles.
 
 Video:  
 [![](https://tse2.mm.bing.net/th?id=OVP.fn_9-Z6kPF3d_G4nSlrb9wHgFo&pid=Api)](https://www.youtube.com/watch?v=pEQdCWwH-YU)

@@ -1,7 +1,6 @@
 import os
 import enum
 import sys
-
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -131,7 +130,7 @@ def gather_website_information(src):
     title, desc = scrape_title_and_desc(soup)
     openings = gather_openings_information(soup)
 
-    # Save title and description to jekyll catalog
+    # Save title and description to Jekyll catalog
     with open('ip-chess-openings/_data/site_info.yml', 'w') as file:
         yaml.dump({
             'title': title,
@@ -227,12 +226,26 @@ def assemble_enhanced_markdown(desc, info):
     return enhanced_md
 
 def create_basic_markdown(chess_website_information):
+    """
+    Create basic markdown from the gathered information.
+    Basic markdown consists of the title, description, and basic information about the openings.
+    :param chess_website_information:
+    :return: Basic markdown text
+    """
     print("Creating basic markdown...", file=sys.stderr)
 
     desc = f"#### {chess_website_information.desc}\n\n"
     return assemble_basic_markdown(desc, chess_website_information)
 
 def create_enhanced_markdown(chess_website_information):
+    """
+    Create enhanced markdown from the gathered information.
+    Enhanced markdown consists of the title, description, basic information about the openings,
+    and DuckDuckGo search results: additional information and a video link.
+    Openings are sorted by the number of views of the corresponding video.
+    :param chess_website_information:
+    :return: Enhanced markdown text
+    """
     print("Creating enhanced markdown...", file=sys.stderr)
 
     desc = f'#### {chess_website_information.desc}\n\n'
@@ -260,6 +273,12 @@ def ask_for_mode():
     return Mode.GENTLE if m is None or m == '1' else Mode.BRUTAL
 
 def main():
+    """
+    Main function of the script.
+    Creates basic and enhanced markdown files with information about chess openings, while saving important information
+    in the Jekyll project catalog.
+    :return:
+    """
     global mode
     mode = ask_for_mode()
     print(mode)
@@ -281,7 +300,6 @@ def main():
             if not os.path.isfile('enhanced_markdown.md'):
                 enhanced_markdown = create_enhanced_markdown(chess_website_information)
                 mdsave(enhanced_markdown, 'enhanced_markdown')
-
 
 if __name__ == '__main__':
     start_time = time.time()

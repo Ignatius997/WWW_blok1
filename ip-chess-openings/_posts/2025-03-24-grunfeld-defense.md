@@ -15,7 +15,7 @@ There are three main lines in the Grunfeld Defense. The exchange variation is th
 
 ### Duckduckgo results about Grunfeld Defense
 
-Learn about the chess opening Grünfeld Defence, named after Ernst Grünfeld and popularized by many top players. Find out its history, main lines, variations and examples.
+The Grünfeld Defence is a chess opening characterised by the moves: 1. d4 Nf6 2. c4 g6 3. ... Bogdan Lalić, The Grunfeld for the Attacking Player (Batsford, 2002) Michael Khodarkovsky, The Grünfeld Defence Revealed (Batsford, 2003) Dearing, Edward (2005). Challenging the Grunfeld.
 
 Video:  
 [![](https://tse1.mm.bing.net/th?id=OVP.aE9eysT9hT3zSHERnCZo8wHgFo&pid=Api)](https://www.youtube.com/watch?v=n7wI5Z--G0Q)
