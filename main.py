@@ -23,11 +23,6 @@ mode = Mode.GENTLE # Mode of the script
 CHESS_SITE_URL = 'https://www.thechesswebsite.com/chess-openings/'
 SUBSITE_SRC_CLASS = 'grid-65 mobile-grid-100 nopadding normal-left-col cb-post-grid'
 _HTML_TAG_PATTERN = re.compile(r'^\s*<[^>]+>')
-_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
-                  "Chrome/133.0.0.0 Safari/537.36"
-}
-_SEPARATOR = '\n================================================================================\n'
 
 class OpeningInformation:
     """
@@ -61,7 +56,7 @@ def get_src(link):
     :param link: URL of the website
     :return: Source code of the website in html
     """
-    chess_request = requests.get(link, headers=_HEADERS)
+    chess_request = requests.get(link)
     assert chess_request.status_code == 200
     return chess_request.text
 
@@ -136,6 +131,7 @@ def gather_website_information(src):
     title, desc = scrape_title_and_desc(soup)
     openings = gather_openings_information(soup)
 
+    # Save title and description to jekyll catalog
     with open('ip-chess-openings/_data/site_info.yml', 'w') as file:
         yaml.dump({
             'title': title,
@@ -244,10 +240,9 @@ def create_enhanced_markdown(chess_website_information):
 
 def mdsave(md_text: str, name: str):
     """
-
-    :param md_text:
-    :param name:
-    :return:
+    Save the markdown text to a file.
+    :param md_text: markdown text
+    :param name: name of the file
     """
     with open(f"{name}.md", "w", encoding="utf-8") as file:
         file.write(md_text)
