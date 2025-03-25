@@ -12,7 +12,9 @@ stronę internetową o otwarciach szachowych.
 
 ### `main.py`
 Plik main.py służy do zescrape'owania danych ze stron
-internetowych i zapisania ich w katalogu Jekylla.
+internetowych, utworzenia plików `basic_markdown.md`
+oraz `enhanced_markdown.md` i zapisania ich
+w katalogu Jekylla.
 
 ## Pliki markdown w głównym katalogu
 
