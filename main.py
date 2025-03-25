@@ -8,6 +8,7 @@ import re
 import time
 from duckduckgo_search import DDGS
 from duckduckgo_search.exceptions import DuckDuckGoSearchException
+import yaml
 
 # TODO Add comments
 
@@ -126,6 +127,13 @@ def gather_website_information(src):
     soup = BeautifulSoup(src, features='html.parser')
     title, desc = scrape_title_and_desc(soup)
     openings = gather_openings_information(soup)
+
+    with open('ip-chess-openings/site_info.yml', 'w') as file:
+        yaml.dump({
+            'title': title,
+            'desc': desc
+        }, file)
+
     return WebsiteInformation(title, desc, openings)
 
 def assemble_basic_markdown(desc, info):
@@ -259,7 +267,6 @@ def main():
         mdsave(basic_markdown, 'basic_markdown')
         enhanced_markdown = create_enhanced_markdown(chess_website_information)
         mdsave(enhanced_markdown, 'enhanced_markdown')
-
     else:
         if not os.path.isfile('basic_markdown.md') or not os.path.isfile('enhanced_markdown.md'):
             chess_website_information = gather_website_information(get_src(CHESS_SITE_URL))
@@ -273,49 +280,7 @@ def main():
                 mdsave(enhanced_markdown, 'enhanced_markdown')
 
 
-def _check_ddg_text(query):
-    """
-    APPROVED 20:09.
-    """
-    print(f'DDGS().text("{query}", max_results=3)\n')
-    results = DUCK.text(query, max_results=3)
-
-    for result in results:
-        print('Type:',  type(result))
-        print('Keys:',  result.keys())
-        print('Title:', result['title'])
-        print('Body:',  result['body'])
-        print(_SEPARATOR)
-
-def _check_ddq_video(query):
-    """
-    APPROVED 20:33
-    """
-    print(f'DDGS().videos("{query}", max_results=3)\n')
-    results = DUCK.videos(query, max_results=3)
-
-    for result in results:
-        print('Type:',  type(result))
-        print('Keys:',  result.keys())
-        print('Title:', result['title'])
-        print('content:', result['content'])
-        print('image_token:', result['image_token'])
-        print('medium image:', result['images']['medium'])
-        print('description:', result['description'])
-        print('statistics:', result['statistics'])
-        print('statistics["viewCount"]:', result['statistics']['viewCount'])
-        print(_SEPARATOR)
-
-def check_ddg():
-    """
-    APPROVED 20:33
-    """
-    query = "polska niemcy francja"
-    # _check_ddg_text(query)
-    _check_ddq_video(query)
-
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    # check_ddg()
     print(f'Execution time: {time.time() - start_time} seconds.')

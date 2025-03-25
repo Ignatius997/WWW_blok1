@@ -6,4 +6,4 @@ collections:
     output: true
 
 theme: minima
-markdown: kramdown
+#markdown: kramdown
